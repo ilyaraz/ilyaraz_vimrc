@@ -66,3 +66,6 @@ function MyTabLabel(n)
 
     return label
 endfunction
+
+map <Space> <C-d>
+map <BS> <C-u>
