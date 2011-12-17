@@ -21,6 +21,8 @@ imap <F3> <Esc>:tabnext<CR>i
 nmap <F3> :tabnext<CR>
 imap <C-o> <Esc>:tabnew<Space>
 nmap <C-o> :tabnew<Space>
+
+set makeprg=make\ -j4
 nmap <C-b> :w<CR>:make<CR>:cw<CR>
 
 function MyTabLine()
