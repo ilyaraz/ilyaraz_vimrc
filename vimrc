@@ -17,11 +17,6 @@ nmap <F3> :tabnext<CR>
 imap <C-o> <Esc>:tabnew<Space>
 nmap <C-o> :tabnew<Space>
 
-set makeprg=make\ -j4
-nmap <C-b> :w<CR>:make<CR>:cw<CR>:cc<CR>
-nmap <C-n> :cn<CR>:cc<CR> 
-nmap <C-p> :cp<CR>:cc<CR>
-
 function MyTabLine()
     let tabline = ''
     for i in range(tabpagenr('$'))
@@ -66,6 +61,13 @@ function MyTabLabel(n)
 
     return label
 endfunction
+
+set makeprg=make\ -j4
+nmap <C-b> :w<CR>:make<CR>:cw<CR>:cc<CR>
+nmap <C-n> :cn<CR>:cc<CR> 
+nmap <C-p> :cp<CR>:cc<CR>
+
+nmap <C-e> :Explore<CR>
 
 map <Space> <C-d>
 map <BS> <C-u>
