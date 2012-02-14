@@ -72,7 +72,4 @@ nmap <C-e> :Explore<CR>
 map <Space> <C-d>
 map <BS> <C-u>
 
-inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
-inoremap {{     {
-inoremap {}     {}
