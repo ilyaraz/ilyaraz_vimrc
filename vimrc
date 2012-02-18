@@ -63,7 +63,7 @@ function MyTabLabel(n)
 endfunction
 
 set makeprg=make\ -j4
-nmap <C-b> :w<CR>:make<CR>:cw<CR>:cc<CR>
+nmap <C-b> :w<CR>:make<CR><CR><CR>:cw<CR>:cc<CR>
 nmap <C-n> :cn<CR>:cc<CR> 
 nmap <C-p> :cp<CR>:cc<CR>
 
