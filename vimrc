@@ -6,6 +6,8 @@ set tabstop=4
 retab
 set shiftwidth=4
 syntax on
+set visualbell
+set t_vb=
 
 set wildmenu
 set wcm=<Tab>
