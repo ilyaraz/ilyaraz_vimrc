@@ -2,6 +2,6 @@
 
 rm -f ~/.vimrc
 rm -rf ~/.vim
-mkdir ~/.vim
 
 cp vimrc ~/.vimrc
+cp -r vim ~/.vim
