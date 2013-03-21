@@ -80,5 +80,4 @@ inoremap {<CR>  {<CR>}<Esc>O
 
 set nocp      
 filetype plugin on      
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor='latex'
+set backspace=2
