@@ -83,3 +83,4 @@ filetype plugin on
 
 :nnoremap <F5> "=strftime("%c")<CR>P
 :inoremap <F5> <C-R>=strftime("%c")<CR>
+set backspace=2
